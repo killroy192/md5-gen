@@ -1,0 +1,32 @@
+{
+  "name": "md5-gen",
+  "version": "0.0.1",
+  "description": "generate hash witdh 2 cicle encoding",
+  "main": "index.js",
+  "scripts": {
+    "start": "node md5.js h",
+    "test": "mocha '*.spec.js*'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/killroy192/md5-gen.git"
+  },
+  "keywords": [
+    "md5",
+    "hash"
+  ],
+  "author": "Dzmitry Lahunouski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/killroy192/md5-gen/issues"
+  },
+  "homepage": "https://github.com/killroy192/md5-gen#readme",
+  "dependencies": {
+    "chalk-pipe": "^1.2.0",
+    "inquirer": "^5.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1"
+  }
+}
